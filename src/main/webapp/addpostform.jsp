@@ -18,7 +18,7 @@
     <label>
         <select name="category">
             <option value="자유">자유</option>
-            <option value="요리">질문</option>
+            <option value="질문">질문</option>
             <option value="답변">답변</option>
             <option value="공지">공지</option>
             <option value="기타">기타</option>

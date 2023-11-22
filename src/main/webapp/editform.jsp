@@ -38,7 +38,7 @@
 			<label>
 				<select name="category">
 					<option value="자유" <%= u.getCategory().equals("자유") ? "selected" : "" %>>자유</option>
-					<option value="요리" <%= u.getCategory().equals("질문") ? "selected" : "" %>>질문</option>
+					<option value="질문" <%= u.getCategory().equals("질문") ? "selected" : "" %>>질문</option>
 					<option value="답변" <%= u.getCategory().equals("답변") ? "selected" : "" %>>답변</option>
 					<option value="공지" <%= u.getCategory().equals("공지") ? "selected" : "" %>>공지</option>
 					<option value="기타" <%= u.getCategory().equals("기타") ? "selected" : "" %>>기타</option>
